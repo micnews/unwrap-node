@@ -1,14 +1,14 @@
 {
-  "name": "unwrap-node",
+  "name": "unwrap-node-simple",
   "version": "1.0.0",
-  "description": "Unwraps a given DOM element and returns a Range surrounding its child nodes",
+  "description": "Unwraps a given DOM element",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "tape test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/webmodules/unwrap-node.git"
+    "url": "git://github.com/micnews/unwrap-node.git"
   },
   "keywords": [
     "unwrap",
@@ -22,14 +22,11 @@
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webmodules/unwrap-node/issues"
+    "url": "https://github.com/micnews/unwrap-node/issues"
   },
-  "homepage": "https://github.com/webmodules/unwrap-node",
-  "dependencies": {
-    "find-within": "0.0.1",
-    "get-document": "~1.0.0"
-  },
+  "homepage": "https://github.com/micnews/unwrap-node",
   "devDependencies": {
-    "zuul": "1"
+    "jsdom": "^7.0.2",
+    "tape": "^4.2.2"
   }
 }
